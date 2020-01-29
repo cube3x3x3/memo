@@ -10,7 +10,7 @@
 HTTPd: access to /usr/local/httpd/cgi-bin/test.html
     failed for m1.cs.bell-labs.com,
     reason: client denied by server (CGI non-executable)
-    from http*//m2.cs.bell-labs.com/cgi-bin/test.pl
+    from http://m2.cs.bell-labs.com/cgi-bin/test.pl
 ```
 p176 ログファイルを出力しよう
 >（ページに収まるように編集してある）
