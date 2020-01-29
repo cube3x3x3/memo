@@ -14,5 +14,6 @@ HTTPd: access to /usr/local/httpd/cgi-bin/test.html
 ```
 p176 ログファイルを出力しよう
 >（ページに収まるように編集してある）
+
 とあるので、一行で出力しているのではないかと思う。
 
