@@ -56,7 +56,6 @@ p176 ログファイルを出力しよう
 1,1. 1,2. 1,3. 2,2. 2,3. 
 1,3のパターンも可能性としてはありうるか。
 [paiza.io](https://paiza.io/projects/7RfBUir8Q_Lts22Ai97S-g?language=c) だと1,2になる。
-
 [coding_ground](https://www.tutorialspoint.com/compile_c_online.php)だと、Compile and Execute C Online (GNU GCC v7.1.1)とあるが、2,1になる。
 [code shef](https://www.codechef.com/ide)だと、Gcc6.3とあり、2,1になる。
 [ide one](https://ideone.com/enGkHn)だと、gcc 8.3とあり、2,1になる。
@@ -107,4 +106,6 @@ main.c:6:22: warning: multiple unsequenced
 ```
 
 実際にやってみるとバラエティに飛んでいて面白いが、コンパイラはgcc, clang, zapccの３種類になる。
-wandboxが使いやすいが、スニペットを貼って動かせるのは他に譲る。（いくつか調べたものはサービスが終了しているものもあった）
+（いくつか調べたものはサービスが終了しているものもあった）
+wandboxが使いやすい。[シェア用のリンクも生成できた](https://wandbox.org/permlink/tE8vWRYTGRqOF9Jp)
+
