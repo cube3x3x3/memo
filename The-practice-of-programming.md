@@ -55,12 +55,12 @@ p176 ログファイルを出力しよう
 ```
 1,1. 1,2. 1,3. 2,2. 2,3. 
 1,3のパターンも可能性としてはありうるか。
-[paiza.io](https://paiza.io/projects/7RfBUir8Q_Lts22Ai97S-g?language=c) だと1,2になる。
-[coding_ground](https://www.tutorialspoint.com/compile_c_online.php)だと、Compile and Execute C Online (GNU GCC v7.1.1)とあるが、2,1になる。
-[code shef](https://www.codechef.com/ide)だと、Gcc6.3とあり、2,1になる。
-[ide one](https://ideone.com/enGkHn)だと、gcc 8.3とあり、2,1になる。
-[tech io](https://tech.io/snippet?l=c)だと、2,1になる。たぶんGcc系列だろう。
-[wandbox](https://wandbox.org/)は猛烈に早いし選択肢が大量にある。Gcc HEAD 10.0.0.1だと以下になる。
+- [paiza.io](https://paiza.io/projects/7RfBUir8Q_Lts22Ai97S-g?language=c) だと1,2になる。
+- [coding_ground](https://www.tutorialspoint.com/compile_c_online.php)だと、Compile and Execute C Online (GNU GCC v7.1.1)とあるが、2,1になる。
+- [code shef](https://www.codechef.com/ide)だと、Gcc6.3とあり、2,1になる。
+- [ide one](https://ideone.com/enGkHn)だと、gcc 8.3とあり、2,1になる。
+- [tech io](https://tech.io/snippet?l=c)だと、2,1になる。たぶんGcc系列だろう。
+- [wandbox](https://wandbox.org/)は猛烈に早いし選択肢が大量にある。Gcc HEAD 10.0.0.1だと以下になる。
 ```
 prog.c: In function 'main':
 prog.c:6:29: warning: operation on 'n' may be undefined [-Wsequence-point]
@@ -79,8 +79,8 @@ prog.c:6:24: warning: multiple unsequenced modifications to 'n' [-Wunsequenced]
 
 ```
 同じく警告が出るが、clangの方が明確に、unsequenced modifications to 'n'と警告される。
-[codepad](http://codepad.org/68WJYzeS)は、2,1だ。
-[jdoodle](https://www.jdoodle.com/c-online-compiler/)は、gcc 9.1.0 で2,1だ。zapcc5.1.0だと1,2になる。なぜかzapcc側だけwarningが出る。
+- [codepad](http://codepad.org/68WJYzeS)は、2,1だ。
+- [jdoodle](https://www.jdoodle.com/c-online-compiler/)は、gcc 9.1.0 で2,1だ。zapcc5.1.0だと1,2になる。なぜかzapcc側だけwarningが出る。
 ```
 1 2
 
@@ -91,7 +91,7 @@ jdoodle.c:6:24: warning: multiple unsequenced modifications to 'n' [-Wunsequence
 
 ```
 
-[Repl.it](https://repl.it/languages/c)では、clangを使っており1,2になるし警告も出る。コピペがしづらい。
+- [Repl.it](https://repl.it/languages/c)では、clangを使っており1,2になるし警告も出る。コピペがしづらい。
 ```
 clang version 7.0.0-3~ubuntu0.18.04.1 (tags/RELEASE_700/final)
  clang-7 -pthread -lm -o main main.c
