@@ -109,3 +109,4 @@ main.c:6:22: warning: multiple unsequenced
 （いくつか調べたものはサービスが終了しているものもあった）
 wandboxが使いやすい。[シェア用のリンクも生成できた](https://wandbox.org/permlink/tE8vWRYTGRqOF9Jp)
 
+こんな単純なものでも、実際に試すと結果がバラつくのは面白い。2,1のパターンはどちら側から評価するか、というコンパイラの作りによるものだろうか。
